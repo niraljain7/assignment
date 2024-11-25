@@ -7,4 +7,4 @@ pip install -r requirements.txt
 
 Place the .env file in app folder
 
-Run command with app folder - gunicorn -w 2 -k uvicorn.workers.UvicornWorker main:app
+Run command within app folder - gunicorn -w 2 -k uvicorn.workers.UvicornWorker main:app
